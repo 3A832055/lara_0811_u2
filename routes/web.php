@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controller\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,4 +58,6 @@ use Illuminate\Support\Facades\Route;
                 return 'admin dashboard';
                 });
                 });
+
+                Route::get ('home',[HomeController::class,'index'])->name('home.index');
         
