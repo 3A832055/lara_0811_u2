@@ -37,7 +37,6 @@ use Illuminate\Support\Facades\Route;
     Route::get('hello/{name}',function($name){
         return'Hello,'.$name;
         });
-        */
 
     Route::get('hello/{name?}',function($name='Everybody'){
         return'Hello,'.$name;
@@ -48,4 +47,8 @@ use Illuminate\Support\Facades\Route;
         return 'Hello, '.$name.'. Thanks you!';
         });
         */
+
+        Route::get('dashboard',function(){
+            return 'dashboard';
+            });
         
