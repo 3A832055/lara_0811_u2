@@ -21,6 +21,7 @@ use App\Http\Controller\HomeController;
     Route::get('/',function(){
         return view('welcome');
         });
+        
 //Route 回傳字串
     /*  Route::get('/',function(){
         return 'welcome';
@@ -49,7 +50,7 @@ use App\Http\Controller\HomeController;
         });
         */
 
-       /*  Route::get('dashboard',function(){
+       /* Route::get('dashboard',function(){
             return 'dashboard';
             });
 
