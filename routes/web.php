@@ -14,26 +14,26 @@ use App\Http\Controller\HomeController;
 |
 */
 
-   /*  Route::get('/', function () {
+    /*Route::get('/', function () {
         return view('welcome');
         });
 //Route 回傳 view
-    Route::get('/',function(){
+     Route::get('/',function(){
         return view('welcome');
-        });*/
+        });
         
 //Route 回傳字串
       Route::get('/',function(){
         return 'welcome';
-         });
+         });*/
 //Route 跳轉路由
-   /*  Route::get('r1',function(){
+     Route::get('r1',function(){
         return redirect('r2');
         });
 
      Route::get('r2',function(){
         return view('welcome');
-         });*/
+         });
 //Route 接收參數
 /*
     Route::get('hello/{name}',function($name){
