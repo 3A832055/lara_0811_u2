@@ -14,20 +14,20 @@ use App\Http\Controller\HomeController;
 |
 */
 
-    Route::get('/', function () {
+   /*  Route::get('/', function () {
         return view('welcome');
         });
 //Route 回傳 view
     Route::get('/',function(){
         return view('welcome');
-        });
-
+        });*/
+        
 //Route 回傳字串
-    /*  Route::get('/',function(){
+      Route::get('/',function(){
         return 'welcome';
          });
 //Route 跳轉路由
-    Route::get('r1',function(){
+   /*  Route::get('r1',function(){
         return redirect('r2');
         });
 
@@ -61,8 +61,4 @@ use App\Http\Controller\HomeController;
                 });
 
                 Route::get ('home',[HomeController::class,'index'])->name('home.index');
-<<<<<<< HEAD
                 */
-=======
->>>>>>> 45500ffa124afabfeab28cadb0bf42f7a440d87e
-        
