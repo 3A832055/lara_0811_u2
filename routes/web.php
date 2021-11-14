@@ -21,7 +21,7 @@ use App\Http\Controller\HomeController;
     Route::get('/',function(){
         return view('welcome');
         });
-        
+
 //Route 回傳字串
     /*  Route::get('/',function(){
         return 'welcome';
@@ -61,5 +61,8 @@ use App\Http\Controller\HomeController;
                 });
 
                 Route::get ('home',[HomeController::class,'index'])->name('home.index');
+<<<<<<< HEAD
                 */
+=======
+>>>>>>> 45500ffa124afabfeab28cadb0bf42f7a440d87e
         
