@@ -26,7 +26,7 @@ use App\Http\Controller\HomeController;
 //Route 回傳字串
      /*  Route::get('/',function(){
         return 'welcome';
-         });*/
+         });
 //Route 跳轉路由
      Route::get('r1',function(){
         return redirect('r2');
@@ -34,12 +34,12 @@ use App\Http\Controller\HomeController;
 
       Route::get('r2',function(){
         return view('welcome');
-         });
+         });*/
 
 //Route 接收參數
-   /*  Route::get('hello/{name}',function($name){
-        return'Hello,'.$name;
-        });*/
+     Route::get('hello/{name}',function($name){
+        return 'Hello,'.$name;
+        });
 
    /*  Route::get('hello/{name?}',function($name='Everybody'){
         return'Hello,'.$name;
