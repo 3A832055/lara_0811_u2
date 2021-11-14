@@ -39,17 +39,17 @@ use App\Http\Controller\HomeController;
 //Route 接收參數
      /*Route::get('hello/{name}',function($name){
         return 'Hello,'.$name;
-        });*/
+        });
 
      Route::get('hello/{name?}',function($name='Everybody'){
         return'Hello,'.$name;
-         });
+         });*/
 
 //增加新Route
-   /*  Route::get('hello/{name}', function($name){
+     Route::get('hello/{name}', function($name){
         return 'Hello, '.$name.'. Thanks you!';
         });
-        */
+        
 
        /* Route::get('dashboard',function(){
             return 'dashboard';
