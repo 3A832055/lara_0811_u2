@@ -18,11 +18,11 @@ use App\Http\Controller\HomeController;
         return view('welcome');
         });
 //Route 回傳 view
-   /* Route::get('/',function(){
+    Route::get('/',function(){
         return view('welcome');
         });
 //Route 回傳字串
-    Route::get('/',function(){
+    /*  Route::get('/',function(){
         return 'welcome';
          });
 //Route 跳轉路由
@@ -49,7 +49,7 @@ use App\Http\Controller\HomeController;
         });
         */
 
-        Route::get('dashboard',function(){
+       /*  Route::get('dashboard',function(){
             return 'dashboard';
             });
 
@@ -60,4 +60,5 @@ use App\Http\Controller\HomeController;
                 });
 
                 Route::get ('home',[HomeController::class,'index'])->name('home.index');
+                */
         
